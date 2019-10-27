@@ -1,5 +1,11 @@
 @echo off
-echo ------------ABRIR PROYECTO------------
+cls
+echo   /---------PLATON--------\
+echo .
+echo /-----------ABRIR-----------\
+echo \----------PROYECTO---------/
+echo .
+echo   \---------PLATON--------/
 set/p nombreProyecto=-Ingrese el nombre del proyecto:
 echo .
 set/p paquete=-Ingrese el nombre del paquete:

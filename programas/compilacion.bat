@@ -3,11 +3,15 @@ goto inicio
 
 :inicio
 set path=%path%C:\Program Files\Java\jdk1.8.0_221\bin;
-echo ----------COMPILACION----------
-echo 1) Compilar proyecto
-echo 0) VOLVER
-echo ----------COMPILACION----------
-set/p opcion=- Opcion: 
+echo   /---------PLATON--------\
+echo .
+echo /--------COMPILACION---------\
+echo  1) Compilar 
+echo  0) Volver
+echo \--------COMPILACION---------/
+echo .
+echo   \---------PLATON--------/
+set/p opcion=     \Opcion:  
 if %opcion% EQU 1 = goto compilar
 if %opcion% EQU 0 = goto volver
 
@@ -15,7 +19,9 @@ if %opcion% EQU 0 = goto volver
 :compilar
 cls
 set /p nombre=-Escriba el nombre del proyecto que quiera compilar:
+echo .
 set /p paquete=-Escriba el nombre del paquete del proyecto:
+echo .
 set /p clase=-Escriba el nombre de la clase:
 if EXIST workspace\%nombre% (
 mkdir workspace\%nombre%\obj\%paquete%
