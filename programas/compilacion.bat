@@ -4,14 +4,14 @@ goto inicio
 :inicio
 cls
 set path=%path%C:\Program Files\Java\jdk1.8.0_221\bin;
-echo   /---------PLATON--------\
+echo   /---------PLATON---------\
 echo .
 echo /--------COMPILACION---------\
 echo  1) Compilar 
 echo  0) Volver
 echo \--------COMPILACION---------/
 echo .
-echo   \---------PLATON--------/
+echo   \---------PLATON---------/
 set/p opcion=     \Opcion:  
 if %opcion% EQU 1 = goto compilar
 if %opcion% EQU 0 = goto volver

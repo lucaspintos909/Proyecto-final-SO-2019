@@ -4,14 +4,14 @@ goto inicio
 
 :inicio
 cls
-echo   /---------PLATON--------\
+echo   /---------PLATON---------\
 echo .
 echo /----------EJECUCION---------\
 echo  1) Ejecutar proyecto
 echo  0) Volver
 echo \----------EJECUCION---------/
 echo .
-echo   \---------PLATON--------/
+echo   \---------PLATON---------/
 set/p opcion=     \Opcion:  
 if %opcion% EQU 1 = goto ejecutar
 if %opcion% EQU 0 = call IDE

@@ -3,7 +3,7 @@ goto inicio
 
 :inicio	
 cls
-echo   /---------PLATON--------\
+echo   /---------PLATON-------\
 echo .
 echo /----------EDICION---------\
 echo  1) Modificar
@@ -13,7 +13,7 @@ echo  4) Abrir
 echo  0) Volver
 echo \----------EDICION---------/
 echo .
-echo   \---------PLATON--------/
+echo   \---------PLATON-------/
 set/p opcion=     \Opcion: 
 if %opcion% EQU 1 = call programas\ModificarProyecto.bat
 if %opcion% EQU 2 = call programas\CrearProyecto.bat

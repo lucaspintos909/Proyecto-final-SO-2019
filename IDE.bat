@@ -23,9 +23,11 @@ if %opcion% EQU 0 = goto salir
 
 :salir
 cls
+echo            / PLATON \
+echo           /----------\
 echo   /---------CERRANDO--------\
 echo
 echo   \---------PROGRAMA--------/
-echo            \--------/
-echo             \PLATON/
+echo           \----------/
+echo            \ PLATON /
 exit
