@@ -14,7 +14,7 @@ echo .
 echo   \---------PLATON---------/
 set/p opcion=     \Opcion:  
 if %opcion% EQU 1 = goto ejecutar
-if %opcion% EQU 0 = call IDE
+if %opcion% EQU 0 = call IDE.bat
 
 
 :ejecutar
