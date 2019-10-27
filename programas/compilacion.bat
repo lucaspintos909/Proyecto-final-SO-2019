@@ -3,7 +3,7 @@ goto inicio
 
 :inicio
 cls
-set path=%path%C:\Program Files\Java\jdk1.8.0_221\bin;
+set path=%path%C:\Program Files\Java\jdk1.8.0_231\bin;
 echo   /---------PLATON---------\
 echo .
 echo /--------COMPILACION---------\

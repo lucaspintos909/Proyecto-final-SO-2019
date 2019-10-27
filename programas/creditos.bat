@@ -1,4 +1,4 @@
-echo off
+@echo off
 
 echo                                                                                                     / PLATON \
 echo                                                                                                    /----------\
@@ -45,3 +45,5 @@ echo .
 echo                                                                                           \----------CREDITOS----------/
 echo                                                                                                    \----------/
 echo                                                                                                     \ PLATON /
+pause
+call IDE.bat
