@@ -19,7 +19,7 @@ if %opcion% EQU 0 = call IDE
 
 :ejecutar
 cls
-set path=%path%C:\Program Files\Java\jdk1.7.0_79\bin
+set path=%path%C:\Program Files\Java\jdk1.8.0_221\bin;
 set /p nombre=Escriba el nombre de la carpeta del proyecto:
 echo .
 set /p paquete=-Escriba el nombre del paquete del proyecto:

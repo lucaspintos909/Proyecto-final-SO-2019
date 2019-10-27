@@ -1,6 +1,11 @@
 @echo off
 cls
-echo ------------CREAR------------
+echo   /---------PLATON--------\
+echo .
+echo /-----------CREAR-----------\
+echo \----------PROYECTO---------/
+echo .
+echo   \---------PLATON--------/
 set/p nombreProyecto=-Ingrese el nombre del proyecto:
 echo .
 set/p paquete=-Ingrese el nombre del paquete:
