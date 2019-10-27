@@ -5,12 +5,12 @@ goto inicio
 :inicio
 cls
 echo   /---------PLATON--------\
-echo 
+echo" "
 echo /----------EJECUCION---------\
 echo 1) Ejecutar proyecto
 echo 0) VOLVER
 echo \----------EJECUCION---------/
-echo 
+echo" "
 echo   \---------PLATON--------/
 set/p opcion=- Opcion: 
 if %opcion% EQU 1 = goto ejecutar
@@ -20,7 +20,7 @@ if %opcion% EQU 0 = call IDE
 :ejecutar
 cls
 set path=%path%C:\Program Files\Java\jdk1.8.0_221\bin;
-set /p nombre=-Escriba el nombre de la carpeta del proyecto:
+set /p nombre=Escriba el nombre de la carpeta del proyecto:
 set /p paquete=-Escriba el nombre del paquete del proyecto:
 set /p clase=-Escriba el nombre del programa que quiera ejecutar:
 if EXIST workspace\%nombre%\obj\%paquete% (
