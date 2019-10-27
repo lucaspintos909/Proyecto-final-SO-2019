@@ -5,12 +5,12 @@ goto inicio
 :inicio
 cls
 echo   /---------PLATON--------\
-echo" "
+echo .
 echo /----------EJECUCION---------\
 echo 1) Ejecutar proyecto
 echo 0) VOLVER
 echo \----------EJECUCION---------/
-echo" "
+echo .
 echo   \---------PLATON--------/
 set/p opcion=- Opcion: 
 if %opcion% EQU 1 = goto ejecutar
