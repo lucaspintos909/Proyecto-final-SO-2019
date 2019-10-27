@@ -19,6 +19,7 @@ if %opcion% EQU 0 = call IDE
 
 :ejecutar
 cls
+set CLASSPATH=%CLASSPATH%C:\Users\Sergio\Documents\CosasLucasProyecto\ProyectoSO\workspace\%nombre%\obj\%paquete%\%clase%;
 set path=%path%C:\Program Files\Java\jdk1.8.0_231\bin;
 set /p nombre=Escriba el nombre de la carpeta del proyecto:
 echo .
@@ -27,9 +28,7 @@ echo .
 set /p clase=-Escriba el nombre del programa que quiera ejecutar:
 if EXIST workspace\%nombre%\obj\%paquete% (
 cd workspace\%nombre%\obj\%paquete%
-set CLASSPATH=%CLASSPATH%C:\Users\Sergio\Documents\CosasLucasProyecto\ProyectoSO\workspace\Lucas\obj\default;
 del workspace\%nombre%\obj\%paquete%\%clase%.java
-
 java %clase%
 pause
 echo La ejecucion del programa se ha completado) else (echo El nombre del proyecto ingresado no existe!)
