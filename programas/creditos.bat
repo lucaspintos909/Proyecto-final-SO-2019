@@ -1,5 +1,5 @@
 @echo off
-
+cls
 echo                                                                                                                           / PLATON \
 echo                                                                                                                          /----------\
 echo                                                                                                                 /----------CREDITOS----------\
@@ -14,8 +14,6 @@ echo                                                                            
 echo                                                                                                                          Gaizka Gomez
 echo                                                                                                                         \            /
 echo .
-echo                                                                                                                         -_INTEGRANTES_-
-echo .
 echo .
 echo                                                                                                                      _-CENTRO Y PROFESOR-_
 echo .
@@ -27,8 +25,6 @@ echo                                                                            
 echo                                                                                                                         Fabian Cabrera
 echo                                                                                                                        \              /
 echo .
-echo                                                                                                                      -_CENTRO Y PROFESOR_-
-echo .
 echo .
 echo                                                                                                                       _-CLASE Y HORARIOS-_
 echo .
@@ -39,8 +35,6 @@ echo .
 echo                                                                                                                         /              \
 echo                                                                                                                          Turno Matutino
 echo                                                                                                                         \              /
-echo .
-echo                                                                                                                       -_CLASE Y HORARIOS_-
 echo .
 echo                                                                                                                  \----------CREDITOS----------/
 echo                                                                                                                           \----------/

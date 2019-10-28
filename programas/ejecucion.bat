@@ -12,9 +12,9 @@ echo  0) Volver
 echo \----------EJECUCION---------/
 echo .
 echo   \---------PLATON---------/
-set/p opcion=     \Opcion:  
+set/p opcion=     \Opcion:
 if %opcion% EQU 1 = goto ejecutar
-if %opcion% EQU 0 = call IDE.bat
+if %opcion% EQU 0 = goto Volver
 
 
 :ejecutar
@@ -31,5 +31,14 @@ cd workspace\%nombre%\obj\%paquete%
 del workspace\%nombre%\obj\%paquete%\%clase%.java
 java %clase%
 pause
+cd ..
+cd ..
+cd ..
+cd ..
 echo La ejecucion del programa se ha completado) else (echo El nombre del proyecto ingresado no existe!)
 goto inicio
+
+:Volver
+cls
+call IDE
+pause
